@@ -1,0 +1,124 @@
+
+.contLogin{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/background.png");
+    background-size:cover;  
+    position: absolute;
+    top: 15%;}
+.contParrafo,.contParrafo1,.contParrafo2{
+    font-size: 150%;
+    font-weight: bold;
+    width: 230px;
+    height: 100px ;
+    position:absolute;
+    color: #441d08;}
+.login{
+    width: 480px;
+    height: 350px ;
+    position: absolute;
+    left: 40px;
+    top: 58px;
+    background: #ffffff;
+    border-radius: 5%; 
+    color: #ffffff;
+    background-image: url("../img/login.png");}
+.contParrafo1{
+    left: 40%;
+    top: 20%;}
+.contParrafo2{
+    width: 400px;
+    left: 50%;
+    top: 92%;
+    font-style:italic;
+    font-size: 90%;}
+.contParrafo{
+    font-size: 130%;
+    width: 190px;
+    height: 60px;
+    left: 2%;
+    top: 70%;
+    color: #fcdf82;}
+.lblTitle{
+    font-size: 170%;
+    position: absolute;
+    left: 15%;
+    top: 2px;    
+    color: #ffffff;}
+.formLogin{
+    display:grid;
+    width: 40%;
+    float: right;
+    margin: 5%;
+    position: absolute;
+    left: 49%;
+    top: 45px; }
+.formLogin h2{
+    font-size: 100%;
+    width: 60px;}
+button{
+    background-color: transparent;
+    position: absolute;
+    left: 5%;
+    font-size: 110%;
+    border: 0px;
+    color: #ffffff;} 
+.btnLogin{
+    top:34%;}
+.btnRegistro{
+    top:43%;}
+.btnDirecto{
+    position: absolute;
+    left: 60%;
+    font-size: 100%;   
+    top:94%;
+    color: #ffffff;}
+.btnAceptarTrue:hover{
+    background-color: #ffffff;
+    cursor: pointer;}
+.btnAceptarTrue{
+    width: 100%;
+    height: 30px;
+    border: 0px;       
+    font-size: 110%;
+    font-weight: bold;
+    position: absolute;
+    left: 0%;
+    top:113%;
+    border-radius: 5px;
+    background-color: #e6cec1;
+    color: #441d08;}
+.btnAceptarFalse{
+    width: 100%;
+    height: 30px;
+    border: 0px;       
+    font-size: 100%;
+    font-weight: bold;
+    position: absolute;
+    left: 0%;
+    top:113%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(177, 177, 177);}
+@media(max-width:1330px) { 
+    .contParrafo1{
+        left: 50%;
+    }}
+@media(max-width:1030px) { 
+    .contParrafo1{
+        left: 60%;
+    }}
+@media(max-width:880px) { 
+    .contParrafo1,.contParrafo2{
+        display: none;
+    }}
+.true{
+    color: #ffffff;
+    width: 41%;
+    font-size: 70%;
+    float: right;}
+.false{
+    color: #ffd900;
+    width: 76%;
+    font-size: 70%;
+    float: right;}
